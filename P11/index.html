@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cálculo de Sumas y Promedios</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <h1>Calculadora de Sumas y Promedios de Matriz</h1>
+
+        <button id="generarMatrizBtn">Generar Matriz</button>
+
+        <div id="matriz-container" class="matriz-container"></div>
+
+        <h2>Resultados</h2>
+
+        <div class="resultados">
+            <div>
+                <h3>Sumas por Fila (A):</h3>
+                <div id="suma-filas" class="result-box"></div>
+            </div>
+
+            <div>
+                <h3>Promedios por Fila (B):</h3>
+                <div id="promedio-filas" class="result-box"></div>
+            </div>
+
+            <div>
+                <h3>Sumas por Columna (C):</h3>
+                <div id="suma-columnas" class="result-box"></div>
+            </div>
+
+            <div>
+                <h3>Promedios por Columna (D):</h3>
+                <div id="promedio-columnas" class="result-box"></div>
+            </div>
+        </div>
+    </div>
+
+    <script type="module" src="public/matriz.js"></script>
+</body>
+
+</html>
